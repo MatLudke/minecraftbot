@@ -5,5 +5,9 @@
 		"nodemon": "^2.0.19",
 		"prismarine-viewer": "^1.23.0",
 		"vec3": "^0.1.7"
+	},
+
+	"scripts": {
+		"start": "node majn.js"
 	}
 }
