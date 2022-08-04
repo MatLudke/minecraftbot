@@ -9,7 +9,6 @@ const bot = mineflayer.createBot({
 
 })
 
-bot.once('spawn', () => {  mineflayerViewer(bot, { port: 3000 })})
 
 bot.on('spawn', async () =>{
 
@@ -30,6 +29,7 @@ bot.on('spawn', async () =>{
 
         bot.chat('/plot middle')
     }, 3000);
-
+    
+    console.log("running fast as a tesla model s plaid");
 })
 
