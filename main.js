@@ -1,8 +1,4 @@
 const mineflayer = require('mineflayer')
-const mineflayerViewer = require('prismarine-viewer').mineflayer
-const pathfinder = require('mineflayer-pathfinder').pathfinder
-const { GoalNear } = require('mineflayer-pathfinder').goals
-var v = require('vec3');
 
 const bot = mineflayer.createBot({
     username: 'MatLudke',
